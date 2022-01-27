@@ -2131,6 +2131,7 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				box-shadow: #3c3c3c 3px 8px 11px;
 			}
 
 /* List */
