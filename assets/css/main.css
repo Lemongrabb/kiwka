@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 ol, ul {
@@ -179,6 +180,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.35em;
 		line-height: 1.75em;
+		font-family: 'Times New Roman', Times, serif;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -2696,6 +2698,10 @@ input, select, textarea {
 			width: 60%;
 		}
 
+		.spotlight h2 {
+			font-family: "Times New Roman";
+		}
+
 		.spotlight:nth-child(2n) {
 			-moz-flex-direction: row-reverse;
 			-webkit-flex-direction: row-reverse;
@@ -2708,7 +2714,8 @@ input, select, textarea {
 			color: black;
 		}
 		.spotlight:nth-child(1) h2 {
-			color: black;
+			color: rgb(48 65 68);
+    		font-family: "Times New Roman";
 		}
 
 		.spotlight:nth-child(2) {
