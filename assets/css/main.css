@@ -1378,6 +1378,14 @@ pre code {
 		padding-top: 3em;
 	}
 
+	#one {
+		flex-direction: column;
+	}
+
+	#one img {
+		width: auto;
+		max-width: 100%;
+	}
 }
 
 @media screen and (max-width: 736px) {
